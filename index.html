@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech Simples - Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agro<span>Sustentável</span></h1>
+        <p>Tecnologia e Equilíbrio no Campo</p>
+    </header>
+
+    <main class="conteudo">
+        <section class="introducao">
+            <h2>Tecnologia na Produção Agrícola</h2>
+            <p>Clique nos botões abaixo para aplicar tecnologias modernas na plantação e equilibrar a produção com a preservação do meio ambiente.</p>
+        </section>
+
+        <section class="acoes">
+            <button onclick="ativarTecnologia('manual')">Cultivo Manual</button>
+            <button onclick="ativarTecnologia('sensor')">Sensores de Solo</button>
+            <button onclick="ativarTecnologia('drone')">Drones Agrícolas</button>
+        </section>
+
+        <section id="painel" class="painel-status">
+            <h3>Estado Atual da Produção</h3>
+            <p><strong>Nível de Sustentabilidade:</strong> <span id="status-texto">Aguardando escolha...</span></p>
+            <p><strong>Economia de Água:</strong> <span id="status-agua">0%</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Concurso Agrinho 2026 - Subcategoria 3</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
