@@ -1,0 +1,101 @@
+/* Configuração de Cores e Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f4;
+    color: #333;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e7d32; /* Verde Escuro */
+    color: white;
+    padding: 30px 20px;
+}
+
+header h1 span {
+    color: #a5d6a7; /* Verde Claro */
+}
+
+/* Corpo da Página */
+.conteudo {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.introducao h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Botões */
+.acoes {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.acoes button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.acoes button:hover {
+    background-color: #1b5e20;
+}
+
+/* Painel de Resultados */
+.painel-status {
+    background-color: #f9f9f9;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.painel-status h3 {
+    margin-bottom: 10px;
+}
+
+#status-texto {
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Responsividade para telemóveis/celulares */
+@media (max-width: 480px) {
+    .acoes {
+        flex-direction: column;
+    }
+    .conteudo {
+        margin: 15px;
+    }
+}
